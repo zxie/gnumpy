@@ -39,8 +39,11 @@ one added note: if you use it for scientific work that gets published,
 you must include reference to the Gnumpy tech report in your
 publication. For details of the license, see the top of gnumpy.py.
 
+See also `this presentation <https://twitter.com/xavier_arrufat/status/299810134627086336>` by Xavier Arrufat, introducing numpy at the Python for Data Analysis meetup in Barcelona, 2013.
+
 Recent changes:
 
+- 2013-02-22: Bugfixes in max() and log_1_plus_exp() that only affected behavior when no GPU was used.
 - 2012-07-25: Bugfix. gnumpy.dot(x, x), when x is a 1-dimensional array, didn't work but now works.
 - 2011-06-06: gnumpy.dot() now takes arrays of ndim>2.
 - 2011-04-19: Bugfix: several bugs involving zero size arrays were fixed.
